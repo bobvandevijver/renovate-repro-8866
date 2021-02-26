@@ -1,0 +1,17 @@
+{
+    "name": "bobv/renovate-repro-8866",
+    "type": "project",
+    "require": {
+        "drenso/symfony-shared": "^1.22.0",
+        "symfony/flex": "^1.12",
+        "symfony/console": "^4.4"
+    },
+    "conflict": {
+        "symfony/symfony": "*"
+    },
+    "extra": {
+        "symfony": {
+            "require": "4.4.*"
+        }
+    }
+}
