@@ -1,0 +1,40 @@
+bobv@XPS15-BOB:~/projecten/github/bobvandevijver/renovate-repro-8866$ rm -rf vendor
+bobv@XPS15-BOB:~/projecten/github/bobvandevijver/renovate-repro-8866$ php composer.phar update drenso/symfony-shared --with-dependencies --ignore-platform-reqs --no-ansi --no-interaction --no-scripts --no-autoloader
+Loading composer repositories with package information
+Updating dependencies (including require-dev)
+Package operations: 32 installs, 0 updates, 0 removals
+  - Installing symfony/flex (v1.12.2): Loading from cache
+  - Installing symfony/polyfill-mbstring (v1.22.1): Loading from cache
+  - Installing symfony/polyfill-ctype (v1.22.1): Loading from cache
+  - Installing twig/twig (v3.3.0): Loading from cache
+  - Installing symfony/polyfill-php80 (v1.22.1): Loading from cache
+  - Installing symfony/polyfill-php73 (v1.22.1): Loading from cache
+  - Installing symfony/polyfill-intl-normalizer (v1.22.1): Loading from cache
+  - Installing symfony/deprecation-contracts (v2.2.0): Loading from cache
+  - Installing symfony/http-foundation (v5.2.3): Loading from cache
+  - Installing symfony/http-client-contracts (v2.3.1): Loading from cache
+  - Installing psr/container (1.0.0): Loading from cache
+  - Installing symfony/event-dispatcher-contracts (v1.1.9): Loading from cache
+  - Installing symfony/event-dispatcher (v4.4.19): Loading from cache
+  - Installing symfony/var-dumper (v5.2.3): Loading from cache
+  - Installing psr/log (1.1.3): Loading from cache
+  - Installing symfony/debug (v4.4.19): Loading from cache
+  - Installing symfony/error-handler (v4.4.19): Loading from cache
+  - Installing symfony/http-kernel (v4.4.19): Loading from cache
+  - Installing symfony/service-contracts (v2.2.0): Loading from cache
+  - Installing symfony/polyfill-intl-grapheme (v1.22.1): Loading from cache
+  - Installing symfony/string (v5.2.3): Loading from cache
+  - Installing symfony/property-info (v5.2.3): Loading from cache
+  - Installing symfony/property-access (v5.2.3): Loading from cache
+  - Installing symfony/options-resolver (v5.2.3): Loading from cache
+  - Installing symfony/polyfill-intl-icu (v1.22.1): Loading from cache
+  - Installing symfony/intl (v5.2.3): Loading from cache
+  - Installing symfony/form (v5.2.3): Loading from cache
+  - Installing symfony/dependency-injection (v5.2.3): Loading from cache
+  - Installing symfony/filesystem (v5.2.3): Loading from cache
+  - Installing symfony/config (v5.2.3): Loading from cache
+  - Installing drenso/symfony-shared (1.22.1): Downloading (100%)
+  - Installing symfony/console (v4.4.19): Loading from cache
+Writing lock file
+29 packages you are using are looking for funding.
+Use the `composer fund` command to find out more!
