@@ -3,8 +3,8 @@
     "type": "project",
     "require": {
         "drenso/symfony-shared": "1.22.0",
-        "symfony/flex": "1.12.2",
-        "symfony/console": "4.4.19"
+        "symfony/flex": "1.16.3",
+        "symfony/console": "4.4.30"
     },
     "conflict": {
         "symfony/symfony": "*"
